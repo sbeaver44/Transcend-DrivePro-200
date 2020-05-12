@@ -18,3 +18,4 @@ ffmpeg -f concat -safe 0 -i filelist.txt -c copy "${tripname}.MOV"
 ffmpeg -r:v "479.52/1" -i "${tripname}.MOV" -an -r:v "59.94/1" -c:v libx264 "${tripname}_lapse16.mp4"
 mv "${tripname}.MOV" "${tripname}_full.mp4"
 rm *.MOV
+rm filelist.txt
