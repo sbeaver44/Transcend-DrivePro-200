@@ -13,6 +13,7 @@ This file has been tested using Manjaro Linux.  No guarantees this will work wit
 7) You should replace "Trip Name Goes Here" with something 
 8) You want to keep your source files
 9) You don't have more than 9,999 source files
+10) You have **no other .MOV files in the directory you will run this script in -- as they will be deleted**
 
 # Steps
 1) import this file into the directory **above** all the files you want to merge and timelapse.  It will look at all directories underneath.
